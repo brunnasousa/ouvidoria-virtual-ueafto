@@ -4,3 +4,15 @@
     font-weight: 700;
     color: var(--verde-escuro);
 }
+
+.formulario__link{
+    margin-bottom: 6rem;
+}
+
+@media screen and (min-width: 1200px) {
+    .formulario__link{
+        width: 500px;
+        height: 450px;
+        
+    }
+}

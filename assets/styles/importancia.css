@@ -4,10 +4,14 @@
 
 .importancia__titulo{
     padding: 2rem;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 700;
     color: var(--verde-escuro);
     
+}
+
+.importancia__imagem{
+    padding-left: .8rem;
 }
 
 .importancia__cartilha{
@@ -24,4 +28,21 @@
     text-decoration: none;
     color: var(--verde-texto);
     
+}
+
+@media screen and (min-width: 1200px) {
+
+    .importancia__titulo{
+        padding: 2.5rem 3rem;
+    }
+    .importancia__imagem{
+        padding: 0 5rem;
+    }
+
+    .importancia__cartilha{
+        max-width: 17%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
 }

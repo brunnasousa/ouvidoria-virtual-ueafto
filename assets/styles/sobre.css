@@ -24,3 +24,20 @@ b{
     max-width: 6rem;
     
 }
+
+@media screen and (min-width: 1200px) {
+
+    .sobre__titulo{
+        padding: 2.5rem 3rem;
+    }
+
+    .sobre__texto{
+        padding: 1rem 5rem;
+    }
+
+    .sobre__imagem{
+        padding: 0 5rem;
+    }
+
+
+}
