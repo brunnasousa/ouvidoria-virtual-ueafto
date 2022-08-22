@@ -1,4 +1,27 @@
+.ueafto__titulo{
+    padding: 2rem;
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--verde-escuro);
+}
+
 .ueafto__imagem{
     margin: 1rem;
-    max-width: 2rem;
+    max-width: 16rem;
+}
+
+.ueafto__texto{
+    padding: 1rem 1.5rem;
+    align-items: center;
+    color: var(--verde-texto);
+    line-height: 1.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+    .ueafto__div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5rem;
+    }
 }

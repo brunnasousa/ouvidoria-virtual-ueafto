@@ -1,3 +1,13 @@
+.autores{
+    background: var(--verde-claro);
+}
+
+.autores__titulo{
+    padding: 2rem;
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--verde-escuro);
+}
 
 .autores__div{
     display: flex;
@@ -11,4 +21,18 @@
 .autores__texto{
     display: flex;
     align-items: center;
+    color: var(--verde-texto);
+}
+
+@media screen and (min-width: 1200px) {
+    .autores__responsividade{ 
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 auto;
+        
+    }
+
+    .autores__div{
+        padding: 0 2.8rem;
+    }
 }

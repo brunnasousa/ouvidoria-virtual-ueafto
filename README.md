@@ -8,11 +8,11 @@
 
 ## 🤖 Onde encontrar ?
 
-<p>O Projeto está hospedado pelo GitHub Pages e você pode acessar pelo <a href="https://brunnasousa.github.io//" target="_blank" rel="external">link.</a> </p>
+<p>O Projeto está hospedado pelo GitHub Pages e você pode acessar pelo <a href="https://brunnasousa.github.io/ouvidoria-virtual-ueafto/" target="_blank" rel="external">link.</a> </p>
 
 - link principal: https://bit.ly/
 
-- link alternativo: https://brunnasousa.github.io/
+- link alternativo: https://brunnasousa.github.io/ouvidoria-virtual-ueafto/
 
 ## 💻 Sobre o projeto
 

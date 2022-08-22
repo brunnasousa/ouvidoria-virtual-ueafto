@@ -1,7 +1,26 @@
+b{
+    font-weight: 700;
+    color: var(--verde-escuro);
+}
+
 .sobre{
     background-color: var(--branco);
 }
 
 .sobre__titulo {
-    padding: 3rem;
+    padding: 2rem;
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--verde-escuro);
+}
+
+.sobre__texto{
+    padding: 1rem 1.5rem;
+    align-items: center;
+    line-height: 1.5rem;
+}
+.sobre__imagem{
+    padding: 1em 8em;
+    max-width: 6rem;
+    
 }

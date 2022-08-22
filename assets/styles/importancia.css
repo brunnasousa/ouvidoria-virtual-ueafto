@@ -1,0 +1,27 @@
+.importancia{
+    background: var(--verde-claro);
+}
+
+.importancia__titulo{
+    padding: 2rem;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--verde-escuro);
+    
+}
+
+.importancia__cartilha{
+    display: flex;
+    padding: .6rem;
+    border: solid var(--verde-escuro) .3rem;
+    border-radius: 2rem;
+    margin: 2rem 3rem;
+    
+}
+
+.importancia__cartilha-texto{
+    padding-left: 1rem;
+    text-decoration: none;
+    color: var(--verde-texto);
+    
+}
