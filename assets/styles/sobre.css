@@ -1,0 +1,7 @@
+.sobre{
+    background-color: var(--branco);
+}
+
+.sobre__titulo {
+    padding: 3rem;
+}

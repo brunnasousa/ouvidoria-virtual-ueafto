@@ -1,0 +1,14 @@
+
+.autores__div{
+    display: flex;
+}
+
+.autores__imagem{
+    margin: 1rem;
+    max-width: 8rem;
+}
+
+.autores__texto{
+    display: flex;
+    align-items: center;
+}

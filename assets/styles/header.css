@@ -1,0 +1,191 @@
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+
+}
+
+ /*pseudo-classes e combinadores*/
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer{
+    background-image: url("../img/Menu Aberto.svg");
+}
+
+.container__botao:checked~.container__rotulo {
+    background: var(--verde-claro);
+    border-radius: .2rem;
+}
+
+.container__rotulo{
+    padding: 2.2em 1em;
+}
+
+/*ate aqui*/
+
+.cabecalho__menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-image: no-repeat;
+    background-position: center;
+}
+
+.container__imagem{
+    padding: 1em;
+}
+
+/*---Parte do Menu Hamburguer*/
+.container__botao {
+    display: none; /*tirando o check para nao aparecer*/
+}
+
+.lista-menu{
+    display: none;
+    position: absolute; 
+    top: 100%; 
+
+    width: 60vw; /*aumentando o branco do menu pra ficar perto do coracaozinho - passando um pouco da metade da tela*/ 
+}
+
+.container__botao:checked~.lista-menu { /*pra quando eu clicar aparecer a lista do menu ja que tirei em lista-menu none*/
+    display: block;
+}
+
+
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__link{
+
+    /*informações pega do figma mesmo (inspect)*/
+    background: var(--azul-degrade);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    text-transform: uppercase;
+}
+
+
+/*ajustando pra não aparecer as configurações do 1024px*/
+.container__titulo,
+.opcoes{
+    display: none;
+}
+
+/*ajustando pra não aparecer as configurações do 1728px*/
+.container_texto{
+    display: none;
+}
+
+
+
+
+@media screen and (min-width: 797px){
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+    .container__titulo{
+        font-weight: 400;
+        display: block; /*por causa do display none em 'container__titulo'*/
+    }
+    
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+
+    .container__titulo,
+    .container__titulo--negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem-transparente{
+        display: none;
+    }
+
+    /*lista da categorias*/
+    .opcoes__botao{
+        display: none;
+    }
+
+    .opcoes__botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    /*pseudo-classes e combinadores*/
+    .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item{
+        background: var(--verde-claro);
+        color: var(--branco);
+    }
+
+    .opcoes__item {
+        padding: 2em 1em;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--verde-claro);
+        border-radius: .2rem;
+    }
+
+    .lista-menu__item:hover>.lista-menu__link { 
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .div__opcoes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .cabecalho{
+        padding: 0 2em;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    /*ajustando pra  aparecer as configurações do 1728px*/
+    .container_texto{
+        display: block;
+    }
+    
+}

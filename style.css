@@ -1,0 +1,51 @@
+@import url("./assets/styles/header.css");
+@import url("./assets/styles/banner.css");
+
+@import url("./assets/styles/rodape.css");
+
+@import url("./assets/styles/autores.css");
+@import url("./assets/styles/formulario.css");
+@import url("./assets/styles/importancia.css");
+@import url("./assets/styles/sobre.css");
+@import url("./assets/styles/ueafto.css");
+
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --verde:#87c6ab;
+    --verde-escuro:#64937c;
+    --verde-claro: #c8e0bc; 
+    --verde-texto: #45605a;
+    --cor-de-fundo: #c2debd;
+    --marrom: #988d60;
+    --marrom-escuro: #727b56;
+
+
+    --cinza: #474646;
+    --cinza-claro: #858585;
+    --cinza-branco: #F9F9F9;
+
+
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+}
+
+body{ 
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/*para o degrade azul em titulo
+
+    background: var(--azul-degrade);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+*/
