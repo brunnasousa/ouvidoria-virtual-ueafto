@@ -10,9 +10,14 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .formulario__titulo{
+        padding: 2rem 3rem;
+    }
+
+    
     .formulario__link{
         width: 500px;
         height: 450px;
-        
+        padding: 0 35%;
     }
 }
