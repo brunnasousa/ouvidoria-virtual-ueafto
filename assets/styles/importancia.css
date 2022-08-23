@@ -11,7 +11,11 @@
 }
 
 .importancia__imagem{
-    padding-left: .8rem;
+    padding-left: 1rem;
+}
+
+.importancia__imagem-pag03{
+    padding-left: 1.8rem;
 }
 
 .importancia__cartilha{
@@ -19,13 +23,26 @@
     padding: .6rem;
     border: solid var(--verde-escuro) .3rem;
     border-radius: 2rem;
-    margin: 2rem 3rem;
+    margin: 1rem 3rem;
+    margin-bottom: var(--verde-escuro);
+
+    align-items: center;
+}
+
+.importancia__cartilha-download{
+    text-decoration-line: none;
 }
 
 .importancia__cartilha-texto{
     padding-left: 1rem;
     text-decoration: none;
     color: var(--verde-texto);
+    font-style: bold;
+}
+
+.importancia__cartilha-texto:hover{
+    color: var(--marrom-escuro);
+    transition: color .2s ease;
 }
 
 @media screen and (min-width: 1200px) {
@@ -38,10 +55,10 @@
     }
 
     .importancia__cartilha{
-        max-width: 17%;
+        width: 17%;
         text-align: center;
         display: flex;
         justify-content: center;
-        margin: 2rem 35%;
+        margin: 2rem 41%;
     }
 }

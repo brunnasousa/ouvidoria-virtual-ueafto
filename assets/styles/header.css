@@ -66,7 +66,6 @@
 
 .lista-menu__link{
 
-    /*informações pega do figma mesmo (inspect)*/
     background: var(--azul-degrade);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
@@ -76,13 +75,13 @@
 }
 
 
-/*ajustando pra não aparecer as configurações do 1024px*/
+/*ajustando pra não aparecer as configurações do 797px*/
 .container__titulo,
 .opcoes{
     display: none;
 }
 
-/*ajustando pra não aparecer as configurações do 1728px*/
+/*ajustando pra não aparecer as configurações do 1200px*/
 .container_texto{
     display: none;
 }
@@ -183,7 +182,7 @@
         color: var(--preto);
     }
 
-    /*ajustando pra  aparecer as configurações do 1728px*/
+    /*ajustando pra  aparecer as configurações do 1200px*/
     .container_texto{
         display: block;
     }

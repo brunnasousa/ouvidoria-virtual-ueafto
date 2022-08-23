@@ -5,9 +5,6 @@
     color: var(--verde-escuro);
 }
 
-.formulario__link{
-    margin-bottom: 6rem;
-}
 
 @media screen and (min-width: 1200px) {
     .formulario__titulo{
