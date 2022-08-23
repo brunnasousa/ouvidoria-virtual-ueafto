@@ -35,7 +35,6 @@
 }
 
 .fa:hover{
-    font-size: 1.03rem;
     color: var(--verde-escuro);
     transition: color .2s ease;
 }

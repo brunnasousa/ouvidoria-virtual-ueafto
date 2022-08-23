@@ -20,14 +20,12 @@
     border: solid var(--verde-escuro) .3rem;
     border-radius: 2rem;
     margin: 2rem 3rem;
-    
 }
 
 .importancia__cartilha-texto{
     padding-left: 1rem;
     text-decoration: none;
     color: var(--verde-texto);
-    
 }
 
 @media screen and (min-width: 1200px) {
@@ -44,5 +42,6 @@
         text-align: center;
         display: flex;
         justify-content: center;
+        margin: 2rem 35%;
     }
 }

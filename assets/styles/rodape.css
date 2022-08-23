@@ -20,6 +20,12 @@ hr {
     display: none;
 }
 
+.lista-rodape__link:hover{
+    
+    color: var(--verde-escuro);
+    transition: color .2s ease;
+}
+
 @media screen and (min-width: 797px) {
     .rodape{
         display: flex;
