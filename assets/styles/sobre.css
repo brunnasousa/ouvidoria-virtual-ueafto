@@ -18,11 +18,15 @@ b{
     padding: 1rem 1.5rem;
     align-items: center;
     line-height: 1.5rem;
+    margin: 0 1.5rem;
+    text-align:justify;
 }
 .sobre__imagem{
     padding: 1em 8em;
+    margin-bottom: 1.5rem;
     max-width: 6rem;
-    
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (min-width: 1200px) {
@@ -33,6 +37,7 @@ b{
 
     .sobre__texto{
         padding: 1rem 7rem;
+        margin: 0 2rem 0 3rem;
     }
 
     .sobre__imagem{
