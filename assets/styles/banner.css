@@ -22,6 +22,10 @@
     margin: 1em 0;
 }
 
+.formulario__imagem{
+    display: none;
+}
+
 
 @media screen and (min-width: 797px){
     .container__titulo-mobile{

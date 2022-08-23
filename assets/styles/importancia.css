@@ -50,6 +50,12 @@
     .importancia__titulo{
         padding: 2.5rem 3rem;
     }
+
+    .importancia__div-imagem{
+        display: flex;
+        justify-content: center;
+    }
+
     .importancia__imagem{
         padding: 0 5rem;
     }

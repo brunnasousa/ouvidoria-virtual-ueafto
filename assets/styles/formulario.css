@@ -5,16 +5,52 @@
     color: var(--verde-escuro);
 }
 
+.formulario__link{
+    width: 350px;
+    height: 600px;
+}
+
+.formulario__imagem{
+    width: 70%;
+    display: flex;
+    padding: 2rem 0;
+    margin-left: 3rem;
+}
+
+.order1 {
+	order: 2;
+}
+
+.order2 {
+	order: 1;
+}
 
 @media screen and (min-width: 1200px) {
     .formulario__titulo{
         padding: 2rem 3rem;
     }
 
+    .formulario__tela{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
     
     .formulario__link{
-        width: 500px;
-        height: 450px;
-        padding: 0 35%;
+        width: 700px;
+        height: 720px;
+        padding: 0 2rem;
+    }
+
+    .formulario__tela-imagem{
+        margin: 10rem;
+        margin-left: 2rem;
+    }
+
+    .formulario__imagem{
+        width: 70%;
+        display: flex;
+        padding: 2rem 0;
+        margin-left: 3rem;
     }
 }
