@@ -39,6 +39,7 @@
     color: var(--verde-escuro);
     transition: color .2s ease;
 }
+
 @media screen and (min-width: 1200px) {
     .autores__responsividade{ 
         display: flex;
